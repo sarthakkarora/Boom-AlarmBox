@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Boomer Alarmbox</title>
+  <meta name="author" content="Sarthak Arora">
+
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 20px;
+      padding: 20px;
+    
+     
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      transition: background-color 1s ease-in-out; 
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      color: #61dafb; /* Change heading color */
+    }
+  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#603cba">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#603cba">
+
+</head>
+
+<body>
+  <main>
+    <h1>🦍 Boomer Alarmboxx 🦍</h1>
+
+    <audio id="why" src="sounds/why.mp3"></audio>
+    <audio id="victory" src="sounds/victory.mp3"></audio>
+    <audio id="seanangry" src="sounds/seanangry.mp3"></audio>
+    <audio id="benangry" src="sounds/benangry.mp3"></audio>
+    <audio id="punchline" src="sounds/punchline.mp3"></audio>
+    <audio id="airhorn" src="sounds/airhorn.mp3"></audio>
+    <audio id="unbelievable" src="sounds/unbelievable.mp3"></audio>
+    <audio id="excellent" src="sounds/excellent.mp3"></audio>
+    <audio id="sacrilegious" src="sounds/sacrilegious.mp3"></audio>
+    <audio id="interesting" src="sounds/interesting.mp3"></audio>
+    <audio id="error" src="sounds/error.mp3"></audio>
+    <audio id="shutdown" src="sounds/shutdown.mp3"></audio>
+    <audio id="failure" src="sounds/failure.mp3"></audio>
+    <audio id="wow" src="sounds/wow.mp3"></audio>
+    <audio id="cheering" src="sounds/cheering.mp3"></audio>
+    <audio id="dundundun" src="sounds/dundundun.mp3"></audio>
+    <audio id="illuminati" src="sounds/illuminati.mp3"></audio>
+    <audio id="punch" src="sounds/punch.mp3"></audio>
+    <audio id="sadviolin" src="sounds/sadviolin.mp3"></audio>
+    <audio id="wow2" src="sounds/wow2.mp3"></audio>
+    <audio id="ohno" src="sounds/ohno.mp3"></audio>
+
+    <div class="buttons">
+      <button data-sound="why">Why</button><br><br>
+      <button data-sound="victory">Victory</button><br><br>
+      <button data-sound="seanangry">So Angry</button><br><br>
+      <button data-sound="benangry">So Angry</button><br><br>
+      <button data-sound="punchline">Punchline</button><br><br>
+      <button data-sound="airhorn">Airhorn</button><br><br>
+      <button data-sound="unbelievable">Unbelievable</button><br><br>
+      <button data-sound="excellent">Excellent</button><br><br>
+      <button data-sound="sacrilegious">Sacrilegious</button><br><br>
+      <button data-sound="interesting">Interesting</button><br><br>
+      <button data-sound="error">Error</button><br><br>
+      <button data-sound="shutdown">Shutdown</button><br><br>
+      <button data-sound="failure">Failure</button><br><br>
+      <button data-sound="wow">Wow</button><br><br>
+      <button data-sound="cheering">Cheering</button><br><br>
+      <button data-sound="dundundun">Dun Dun Dun</button><br><br>
+      <button data-sound="illuminati">Illuminati</button><br><br>
+      <button data-sound="punch">Punch</button><br><br>
+      <button data-sound="sadviolin">Sad Violin</button><br><br>
+      <button data-sound="wow2">Wow</button><br><br>
+      <button data-sound="ohno">Oh No</button><br><br>
+    </div>
+
+  </main>
+  <script src="scripts.js"></script>
+  <script>
+    function changeColor() {
+      
+      var r = Math.floor(Math.random() * 256);
+      var g = Math.floor(Math.random() * 256);
+      var b = Math.floor(Math.random() * 256);
+  
+     
+      document.body.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+    }
+  
+   
+    setInterval(changeColor, 1000);
+  </script>
+</body>
+
+</html>
