@@ -1,4 +1,3 @@
-A fun website designed to play variety of sounds at the click of a button. Whether you need a quick burst of sound to wake yourself up, grab someone's attention, or just want to explore different noises, this website has you covered. Each click produces a random sound, ensuring a surprising and engaging experience every time.
 
 # Boom AlarmBox
 
