@@ -13,7 +13,7 @@ Boom AlarmBox is a fun website designed to play a variety of sounds at the click
 
 ## How to Use
 
-1. Visit the [Sound Explorer website](https://sarthakkarora.github.io/Boom-AlarmBox/).
+1. Visit the [Boom AlarmBox](https://sarthakkarora.github.io/Boom-AlarmBox/).
 2. Click on any button to play a random sound.
 3. Enjoy the surprise!
 
